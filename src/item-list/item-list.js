@@ -49,7 +49,7 @@ const ItemList = (props) => {
                     <Figcaption>{login}</Figcaption>
                 </Figure>
                 <div>
-                    <a href={html_url}>{login}</a>
+                    <a href={html_url} target="_blank" rel="noopener">{login}</a>
                     <Info info={url} />  
                 </div>
             </Li>
